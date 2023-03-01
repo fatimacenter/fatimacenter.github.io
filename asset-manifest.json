@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fatimacenter.github.io/static/css/main.0bed2513.css",
-    "main.js": "/fatimacenter.github.io/static/js/main.79d4c625.js",
-    "static/media/ateneo-logo.svg": "/fatimacenter.github.io/static/media/ateneo-logo.8c2db265ff2446a20edd77fc4347036f.svg",
-    "index.html": "/fatimacenter.github.io/index.html",
-    "main.0bed2513.css.map": "/fatimacenter.github.io/static/css/main.0bed2513.css.map",
-    "main.79d4c625.js.map": "/fatimacenter.github.io/static/js/main.79d4c625.js.map"
+    "main.css": "/static/css/main.0bed2513.css",
+    "main.js": "/static/js/main.25c50151.js",
+    "static/media/ateneo-logo.svg": "/static/media/ateneo-logo.8c2db265ff2446a20edd77fc4347036f.svg",
+    "index.html": "/index.html",
+    "main.0bed2513.css.map": "/static/css/main.0bed2513.css.map",
+    "main.25c50151.js.map": "/static/js/main.25c50151.js.map"
   },
   "entrypoints": [
     "static/css/main.0bed2513.css",
-    "static/js/main.79d4c625.js"
+    "static/js/main.25c50151.js"
   ]
 }
