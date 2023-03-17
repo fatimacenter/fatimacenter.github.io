@@ -1,14 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bed2513.css",
-    "main.js": "/static/js/main.25c50151.js",
-    "static/media/ateneo-logo.svg": "/static/media/ateneo-logo.8c2db265ff2446a20edd77fc4347036f.svg",
+    "main.css": "/static/css/main.49f71dd4.css",
+    "main.js": "/static/js/main.84bc042c.js",
+    "static/media/s2.jpg": "/static/media/s2.04027845c7f0df9104d1.jpg",
+    "static/media/f2.jpg": "/static/media/f2.cf455c378a2dbee347c6.jpg",
+    "static/media/s3.jpg": "/static/media/s3.a56199675d5073e50ba6.jpg",
+    "static/media/m2.jpg": "/static/media/m2.e8c867472c8a4612b275.jpg",
+    "static/media/s1.jpg": "/static/media/s1.1076549a068acc12cc47.jpg",
+    "static/media/main.jpg": "/static/media/main.760df40d460b52ca69b9.jpg",
+    "static/media/m1.jpg": "/static/media/m1.72768cbf8201e26c7fcd.jpg",
+    "static/media/people.jpg": "/static/media/people.f61146474fc099fbdc64.jpg",
+    "static/media/place.jpg": "/static/media/place.ca05d43c786e263969c7.jpg",
+    "static/media/s4.jpg": "/static/media/s4.798208ba62d0fedfc916.jpg",
+    "static/media/mv.jpg": "/static/media/mv.4aed9060e6bfba9b1ba4.jpg",
+    "static/media/fb_icon.png": "/static/media/fb_icon.7e1286ee6eebbe3ea577.png",
+    "static/media/f3.jpg": "/static/media/f3.007b9773ae5a408137f0.jpg",
+    "static/media/f1.jpg": "/static/media/f1.d8f4b6c9aafd91dcbc6a.jpg",
+    "static/media/logo.png": "/static/media/logo.09e4eb6b086b32183f69.png",
+    "static/media/f4.jpg": "/static/media/f4.91969c56ff3f04089231.jpg",
+    "static/media/they-pic.svg": "/static/media/they-pic.a62c467f7f00a4ac7b8e86c608bb7805.svg",
+    "static/media/we-pic.svg": "/static/media/we-pic.27b097a3d86e74cc0b241e8d09b23b2b.svg",
+    "static/media/you-pic.svg": "/static/media/you-pic.9d355b18de58a672d933ecb74bb4202b.svg",
     "index.html": "/index.html",
-    "main.0bed2513.css.map": "/static/css/main.0bed2513.css.map",
-    "main.25c50151.js.map": "/static/js/main.25c50151.js.map"
+    "main.49f71dd4.css.map": "/static/css/main.49f71dd4.css.map",
+    "main.84bc042c.js.map": "/static/js/main.84bc042c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bed2513.css",
-    "static/js/main.25c50151.js"
+    "static/css/main.49f71dd4.css",
+    "static/js/main.84bc042c.js"
   ]
 }
