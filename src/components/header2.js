@@ -93,6 +93,7 @@ function Header2(props){
       
       var b = document.createElement("button")
       b.innerHTML = "Checkout"
+      b.classList.add("checkout-b")
       b.addEventListener("click", handleClick)
       cp.appendChild(b)
 

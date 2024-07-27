@@ -213,22 +213,22 @@ function HomePage(props) {
     //   startedBGChange = true
     // } 
 
+    let abgoals = document.getElementById("about-img2")
     let abg = document.getElementById("about-bg-img2")
-    let abgoals = document.getElementById("about-goals")
     window.addEventListener(  
         "scroll", 
         (e) => {
-          const position = window.pageYOffset - window.visualViewport.height;
-        //   console.log("g")
-          // console.log(position+window.innerHeight)
+          const position = window.pageYOffset-500;
           if(position >= (abgoals.getBoundingClientRect().bottom)){
-            // if(position >= (abg.getBoundingClientRect().bottom)){
             abg.classList.add("active")
           } 
           else {
             abg.classList.remove("active")
           }
         })
+
+
+        
 
     if(!addedScrollListener){
       window.addEventListener(  
@@ -294,8 +294,8 @@ function HomePage(props) {
       <div>
       {/* <h1>Fatima</h1> */}
       <h1>
-      <section class="text-box">
-        <div class="letters">
+      <section className="text-box">
+        <div className="letters">
           <span>F</span>
           <span>A</span>
           <span>T</span>
@@ -305,9 +305,9 @@ function HomePage(props) {
         </div>
       </section>
       </h1>
-      <h3 class="subtext-wrapper">  
+      <h3 className="subtext-wrapper">  
        <div>We help</div>
-       <div class="words">
+       <div className="words">
            <span>those in Need.</span>
            <span>the Abandoned.</span>
            <span>the Oppressed.</span>
@@ -316,7 +316,7 @@ function HomePage(props) {
        </h3>
       </div>
     <div id='loading-container' style={{display: "none"}}>
-    <div class="loading" style={{display: "none"}}>
+    <div className="loading" style={{display: "none"}}>
     <span></span>
     <span></span>
     <span></span>
@@ -358,7 +358,7 @@ function HomePage(props) {
 
     {/* </section> */}
 
-    <section className='gallery'>
+    <section className='gallery' style={{marginBottom: 0}}>
       <h1 id='meet-community'>Meet our community</h1>
         <div className='gallery-container'>
 

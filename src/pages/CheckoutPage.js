@@ -41,47 +41,47 @@ function CheckoutPage(props){
     };
 
 
-    return <div id="checkout-main">
+    return <div id="checkout-main" style={{paddingBottom: 30, paddingTop:15}}>
 
 
-    <div class="card">
-    <div class="leftside">
+    <div className="card">
+    <div className="leftside">
       {/* <img
         src="https://i.pinimg.com/originals/18/9d/dc/189ddc1221d9c1c779dda4ad37a35fa1.png"
-        class="product"
+        className="product"
         alt="Shoes"
       /> */}
     </div>
-    <div class="rightside">
+    <div className="rightside">
       <form ref={form}  onSubmit={sendEmail}>
-        <h1>CheckOut</h1>
+        <h1>Checkout</h1>
         <h2>Customer Information</h2>
         <p>Full Name</p>
-        <input type="text" class="inputbox" name="name" required />
+        <input type="text" className="inputbox" name="name" required />
         <p>Contact Number</p>
-        <input type="tel" class="inputbox" name="number" id="card_number" required />
+        <input type="tel" className="inputbox" name="number" id="card_number" required />
         <p>Email</p>
-        <input type="email" class="inputbox" name="email" id="card_number" required />
+        <input type="email" className="inputbox" name="email" id="card_number" required />
         <hr />
         {/* <p>Card Type</p>
-        <select class="inputbox" name="card_type" id="card_type" required>
+        <select className="inputbox" name="card_type" id="card_type" required>
           <option value="">--Select a Card Type--</option>
           <option value="Visa">Visa</option>
           <option value="RuPay">RuPay</option>
           <option value="MasterCard">MasterCard</option>
         </select> */}
-{/* <div class="expcvv">
+{/* <div className="expcvv">
 
-        <p class="expcvv_text">Expiry</p>
-        <input type="date" class="inputbox" name="exp_date" id="exp_date" required />
+        <p className="expcvv_text">Expiry</p>
+        <input type="date" className="inputbox" name="exp_date" id="exp_date" required />
 
-        <p class="expcvv_text2">CVV</p>
-        <input type="password" class="inputbox" name="cvv" id="cvv" required />
+        <p className="expcvv_text2">CVV</p>
+        <input type="password" className="inputbox" name="cvv" id="cvv" required />
     </div>
         <p></p> */}
         <h2>Total:  Php {props.total}.00</h2>
         <textarea id="message-content" name="list_of_items" style={{display: "none"}}/>
-        <button type="submit" class="button">CheckOut</button>
+        <button type="submit" className="button">CheckOut</button>
       </form>
     </div>
   </div>

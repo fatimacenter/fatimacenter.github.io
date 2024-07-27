@@ -428,6 +428,7 @@ display: block;
 }
 #header2 .container {
   display: flex;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
   /* padding: 10px 0; */
@@ -4065,9 +4066,9 @@ color: white;
     /* box-shadow: 0px 0px 8px 2px #000000; */
   }
 
-  #programs-page-2{
+  /* #programs-page-2{
     max-height: 800px;
-  }
+  } */
 
   #about-fatima{
     max-height: 850px;
@@ -4939,3 +4940,14 @@ font-size: 72px;
       }
   }
 
+.checkout-b{
+  padding: 10px 25px;
+  background-color: #1e3799;
+  color: #fff;
+  border-radius:  30px;
+  border: none;
+}
+
+.checkout-b:hover{
+  opacity: .95;
+}
